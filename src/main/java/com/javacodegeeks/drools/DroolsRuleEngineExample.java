@@ -46,7 +46,7 @@ public class DroolsRuleEngineExample {
             System.out.println("************************************");
             System.out.println("Customer cart\n" + customer);
             
-            Customer newCustomer = Customer.newCustomer("JOHN01");
+            Customer newCustomer = Customer.newCustomer("Raja");
     		newCustomer.addItem(p1, 1);
     		newCustomer.addItem(p2, 2);
     		newCustomer.addItem(p4OutOfStock, 1);
